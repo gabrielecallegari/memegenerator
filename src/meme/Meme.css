@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+.meme--form{
+    display: grid;
+    grid-template-columns: 40px 40px / 1fr 1fr;
+    gap: 20px;
+}
+
+.meme--button{
+    grid-column: 1 -1;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    cursor: pointer;
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.meme--input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    padding: 10px;
+}
+
+main{
+    padding: 36px;
+}
