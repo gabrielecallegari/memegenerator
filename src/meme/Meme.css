@@ -33,3 +33,7 @@ body {
 main{
     padding: 36px;
 }
+
+.meme--image{
+    max-width: 100%;
+}
